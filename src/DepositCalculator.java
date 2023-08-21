@@ -15,7 +15,7 @@ public class DepositCalculator {
         return Math.round(value * scaLe) / scaLe;
     }
 
-    void doImportantJob() {
+    void calculateProfit() {
         double out = 0;
 
         Scanner scanner = new Scanner(System.in);
@@ -37,7 +37,7 @@ public class DepositCalculator {
     }
 
     public static void main(String[] args) {
-        new DepositCalculator().doImportantJob();
+        new DepositCalculator().calculateProfit();
     }
 
 
